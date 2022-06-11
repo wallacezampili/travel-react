@@ -1,0 +1,88 @@
+a
+{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.navbar
+{
+    background-color: #00040A;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+.login
+{
+   margin-left: auto;
+   
+}
+.link, .logo, .login
+{
+    margin-right: 30px;
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+.link a:hover
+{
+    font-weight: 600;
+}
+
+.login:hover
+{
+    font-weight: 600;
+}
+
+.logo 
+{
+    margin:0 30px 0 30px;
+    float: left;
+    transform: rotateZ(45deg);
+    font-size: 20px;
+}
+.logo:hover
+{
+   
+    transform: rotateZ(45deg);
+    font-size: 20px;
+    animation: logo-animation 1s;
+}
+.nav-btn
+{
+   height: 30px;
+   width: 100px;
+   background-color: #00040A;
+   text-align: center;
+   color: white;
+   
+   border-radius: 20px;
+   border-style: solid;
+   border-color: white;
+   padding: 5px;
+   margin:  0px 30px 0px 30px;
+   cursor: pointer;
+   transition: 200ms;
+   font-family: sans-serif;
+   align-self: flex-end;
+}
+.nav-btn:hover
+{
+    box-shadow: 0px 0px 5px white;
+    background-color: #0d213f;
+}
+@keyframes logo-animation
+{ 
+    0%,100%
+    {
+        transform: rotateZ(45deg);
+    }
+    50%
+    {
+        transform: rotateZ(405deg);
+    }
+}
